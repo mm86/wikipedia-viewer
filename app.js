@@ -1,6 +1,8 @@
 $(document).ready(function() {
+    
     $('input').keydown(function(e) {
         if (e.keyCode === 13) {
+            $("#list ul").empty();
             var input = $(this).val()
             //make the corresponding API call and console.log the results
             
