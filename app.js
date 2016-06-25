@@ -16,7 +16,7 @@ $(document).ready(function() {
                 var urls = results[3];
 
                 for(var i in title){
-                    $("#list ul").append( "<li>"+title[i]+snippet[i]+urls[i]+"</li>" )
+                    $("#list ul").append( "<li><a href="+urls[i]+">"+title[i]+snippet[i]+"</a></li>" )
                 }
 
             })
