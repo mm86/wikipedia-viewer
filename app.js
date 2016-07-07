@@ -21,7 +21,7 @@ $(document).ready(function() {
                     $("#list ul").append("<li><a href=" + urls[i] + ">" + title[i] + ": " + snippet[i] + "</a></li>");
 
                 }
-                
+
                 $("#list ul a").click(function(e) {
                     e.preventDefault();
                     var urlVal = $(this).attr("href");
